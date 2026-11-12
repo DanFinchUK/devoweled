@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://danfinchuk.github.io/devoweled/" />
+        <link rel="icon" href="data:," />
+
+        <title>Devoweled</title>
+
+        <link rel="stylesheet" href="static/css/screen.css"/>
+    </head>
+
+    <body>
+        <div class="row" style="text-align: center;">
+            <header>
+                <h1>Devoweled</h1>
+                <h2>Add vowels to create a word.</h2>
+            </header>
+
+            <div id="hint"><h1></h1></div>
+
+            <input type="text" value="" id="game_input" maxlength="10" aria-label="Add vowels to create a word">
+
+            <div class="clearfix" style="text-align: left;">
+                <div style="float: left; width: 50%;">
+                    <p id="answers">
+                        <strong>Answers:</strong><br>
+                    </p>
+                </div>
+                <div style="float: left; width: 50%;">
+                    <p>
+                        <strong>Controls:</strong><br>
+                        Enter: Submit your answer<br>
+                        R: Reset your vowels<br>
+                        H: Get a hint.<br>
+                        N: New game.<br>
+                        V: Show / hide all answers.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="static/js/jquery.caret.1.02.js"></script>
+        <script src="static/js/game.js"></script>
+    </body>
+</html>
